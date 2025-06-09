@@ -28,5 +28,5 @@ Abra os arquivos index.html e cadastro.html no navegador.
 
 Teste a funcionalidade do preenchimento automático com um CEP válido,.
 
-##📝 Licença
+## 📝 Licença
 Este projeto é apenas para fins educacionais e não possui fins comerciais. Você pode usá-lo, modificar e compartilhar à vontade durante os estudos.
