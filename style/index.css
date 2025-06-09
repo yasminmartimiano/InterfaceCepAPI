@@ -15,6 +15,12 @@ body {
     min-height: 300px;
     background: rgba(255,255,255,0.05);
     box-shadow: 0 5px 15px rgba(0,0,0,1);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 50vh;         
+    flex-direction: column;  
+    gap: 10px; 
 }
 
 .container::before{
@@ -48,6 +54,7 @@ body {
         filter: blur(60px) hue-rotate(360deg);
     }
 }
+
 .form{
     position: absolute;
     width: 100%;
@@ -64,25 +71,25 @@ body {
     font-size: 24px;
 }
 
-.form .inputBox{
-    width: 100%;
-    margin-top: 20px;
+.form .inputBox {
+  width: 100%;
+  margin-top: 20px;
 }
 
-.form .inputBox{
-    width: 100%;
-    background: transparent;
-    border: none;
-    border-bottom: 2px solid #fff;
-    outline: none;
-    font-size: 18px;
-    color: #fff;
-    padding: 5px 0;
-    font-family: consolas;
+.form .inputBox input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #eee;
+  outline: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 0;
+  font-family: Consolas, monospace;
 }
 
-::placeholder{
-    color: #eee;
+.form .inputBox input::placeholder {
+  color: #eee;
 }
 
 .form .inputBox input[type="submit"]{
@@ -92,8 +99,19 @@ body {
     font-weight: 900;
     max-width: 100px;
     cursor: pointer;
+    background-color: #202221; /* verde água */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
+.form .inputBox input[type="submit"]:hover{
+    background-color: #019875;
+}
 .form p{
     color: #eee;
 }
