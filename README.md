@@ -22,7 +22,7 @@ Basta substituir o número do CEP na URL pelo valor digitado no formulário.
 Clone o repositório:
 
 bash
-git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/yasminmartimiano/InterfaceCepAPI)
+git clone [https://github.com/yasminmartimiano/InterfaceCepAPI](https://github.com/yasminmartimiano/InterfaceCepAPI)
 Abra os arquivos index.html e cadastro.html no navegador.
 
 Teste a funcionalidade do preenchimento automático com um CEP válido.
